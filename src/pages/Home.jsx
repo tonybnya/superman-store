@@ -1,13 +1,10 @@
-import Navbar from "../components/Navbar";
+import HeaderHome from "../sections/HeaderHome";
 
 const Home = () => {
   return (
-    <div className="bg-gradient-to-r from-[#000000] to-[#212E3E] text-white font-rajdhani">
-    <Navbar />
-    <h1 className="text-3xl underline">
-      Hello world!
-    </h1>
-    </div>
+    <main className="text-white font-rajdhani overflow-hidden">
+      <HeaderHome />
+    </main>
   )
 }
 
