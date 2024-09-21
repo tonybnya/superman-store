@@ -11,7 +11,7 @@
   }
 
   body {
-    @apply font-poppins text-[16px] tracking-[-0.03em] text-p5;
+    @apply font-advent text-[16px] tracking-[-0.03em] text-p5;
   }
 
   a {
@@ -169,7 +169,7 @@
   }
 
   .dot {
-    @apply size-1.5 rounded-full bg-p2 max-lg:hidden;
+    @apply size-1.5 rounded-full bg-g8 max-lg:hidden;
   }
 
   .sidebar-before {

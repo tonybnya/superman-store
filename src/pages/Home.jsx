@@ -1,9 +1,12 @@
 import React from "react";
+import HeroHome from "../components/HeroHome.jsx";
 
 const Home = () => {
-    return (
-        <div>Home</div>
-    )
-}
+  return (
+    <main className="overflow-hidden">
+      <HeroHome />
+    </main>
+  );
+};
 
 export default Home;
