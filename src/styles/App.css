@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -7,15 +8,29 @@
 
 .logo {
   height: 6em;
+=======
+.logo {
+>>>>>>> 4f47de75d095dcc1877e9df5d16796f7f0e0e6c0
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
 .logo:hover {
+<<<<<<< HEAD
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+=======
+  filter: drop-shadow(0 0 2em #b11313);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #07338c);
+}
+
+.active {
+  color: #b11313;
+>>>>>>> 4f47de75d095dcc1877e9df5d16796f7f0e0e6c0
 }
 
 @keyframes logo-spin {

@@ -8,7 +8,11 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+<<<<<<< HEAD
 dist
+=======
+# dist
+>>>>>>> 4f47de75d095dcc1877e9df5d16796f7f0e0e6c0
 dist-ssr
 *.local
 
@@ -22,4 +26,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
 *._
+=======
+*._
+>>>>>>> 4f47de75d095dcc1877e9df5d16796f7f0e0e6c0
