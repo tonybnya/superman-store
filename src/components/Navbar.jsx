@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import logo from "../assets/logos/logo_3d.png";
@@ -10,6 +10,7 @@ const RSLink = ({ title }) => (
 );
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="fixed top-0 left-0 z-50 w-full py-10">
       <div className="container flex h-14 items-center max-lg:px-5">
@@ -44,6 +45,17 @@ const Navbar = () => {
           </nav>
         </div>
       </div>
+
+      {/*Hamburger button*/}
+      <button
+        className="lg:hidden z-2 size-10 border-2 border-s4/25 rounded-full flex justify-center items-center"
+        onClick={() => setIsOpen((prevState) => !prevState)}
+      >
+        <img
+          src={`../assets/icons/${isOpen ? "close" : "superman"}.png`}
+          alt="Superman avatar"
+        />
+      </button>
     </div>
   );
 };
