@@ -1,17 +1,18 @@
+import { NavLink } from "react-router-dom";
 import logohome from "../assets/logos/logo_blanc.png";
 
 const Navbar = () => {
   return (
     <nav className="container mx-auto p-6">
       <div className="flex items-center justify-between h-14 max-lg:px-5">
-        <a href="#" className="flex-1 cursor-pointer z-2">
+        <NavLink to="/" className="flex-1 cursor-pointer z-2">
           <img src={logohome} className="w-1/6 md:w-1/4 xl:w-1/6 max-sm:w-1/3 logo" alt="Logo blanc de Superman" />
-        </a>
+        </NavLink>
         <div className="hidden md:block">
           <ul className="flex items-center space-x-8">
-            <li><a href="#" className="base-bold uppercase transition-colors duration-1000 cursor-pointer hover:text-g8">home</a></li>
-            <li><a href="#" className="base-bold uppercase transition-colors duration-1000 cursor-pointer hover:text-g8">e-shop</a></li>
-            <li><a href="#" className="base-bold uppercase transition-colors duration-1000 cursor-pointer hover:text-g8">account</a></li>
+            <li><NavLink to="home" className="base-bold uppercase transition-colors duration-1000 cursor-pointer hover:text-g8">home</NavLink></li>
+            <li><NavLink to="e-shop" className="base-bold uppercase transition-colors duration-1000 cursor-pointer hover:text-g8">e-shop</NavLink></li>
+            <li><NavLink to="account" className="base-bold uppercase transition-colors duration-1000 cursor-pointer hover:text-g8">account</NavLink></li>
           </ul>
         </div>
 
@@ -26,9 +27,9 @@ const Navbar = () => {
 
       <div className="mobile-menu hidden md:hidden">
         <ul className="mt-4 space-y-4">
-          <li><a href="#" className="block px-4 py-2 base-bold uppercase transition-colors duration-1000 cursor-pointer hover:text-g8">home</a></li>
-          <li><a href="#" className="block px-4 py-2 base-bold uppercase transition-colors duration-1000 cursor-pointer hover:text-g8">e-shop</a></li>
-          <li><a href="#" className="block px-4 py-2 base-bold uppercase transition-colors duration-1000 cursor-pointer hover:text-g8">account</a></li>
+          <li><NavLink to="home" className="block px-4 py-2 base-bold uppercase transition-colors duration-1000 cursor-pointer hover:text-g8">home</NavLink></li>
+          <li><NavLink to="e-shop" className="block px-4 py-2 base-bold uppercase transition-colors duration-1000 cursor-pointer hover:text-g8">e-shop</NavLink></li>
+          <li><NavLink to="account" className="block px-4 py-2 base-bold uppercase transition-colors duration-1000 cursor-pointer hover:text-g8">account</NavLink></li>
         </ul>
       </div>
     </nav>

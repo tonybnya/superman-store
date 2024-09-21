@@ -8,11 +8,10 @@ const HeaderHome = () => {
         className="bg-cover bg-center min-h-screen w-full"
         style={{ backgroundImage: `url(${img1})` }}
     >
-        <Navbar />
-          <div className="container flex xl:flex-row items-center px-6 pt-20 md:flex-col-reverse md:gap-20 max-sm:flex-col-reverse max-sm:gap-10">
-            <SocialHero />
-            <HeroHome />
-        </div>
+      <div className="container flex xl:flex-row items-center px-6 pt-20 md:flex-col-reverse md:gap-20 max-sm:flex-col-reverse max-sm:gap-10">
+        <SocialHero />
+        <HeroHome />
+      </div>
     </header>
   )
 }
