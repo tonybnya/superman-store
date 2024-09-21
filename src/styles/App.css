@@ -10,6 +10,10 @@
   filter: drop-shadow(0 0 2em #07338c);
 }
 
+.active {
+  color: #b11313;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
