@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import clsx from "clsx";
-import logo from "../assets/logos/logo_3d.png";
+import logo from "../assets/logos/logo.png";
 import superman from "../assets/icons/superman.png";
 import close from "../assets/icons/close.png";
 
