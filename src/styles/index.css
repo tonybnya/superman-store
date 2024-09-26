@@ -18,9 +18,11 @@
     @apply no-underline;
   }
 
+  /*
   img {
     @apply block max-w-full;
   }
+  */
 
   button {
     @apply bg-none tracking-[-0.03em];
@@ -161,7 +163,7 @@
   }
 
   .nav-li {
-    @apply relative flex flex-1 items-center justify-between max-lg:flex-col max-lg:items-start;
+    @apply relative flex flex-1 items-center justify-center max-lg:flex-col;
   }
 
   .nav-logo {
