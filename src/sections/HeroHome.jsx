@@ -21,7 +21,7 @@ const HeroHome = () => {
               powers beyond imagination, he fights for a brighter future where
               good always triumphs.
             </p>
-            <LinkScroll to="story" offset={-100} spy smooth>
+            <LinkScroll to="e-shop" offset={-100} spy smooth>
               <Button icon={superman}>Try it now</Button>
             </LinkScroll>
           </div>

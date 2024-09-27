@@ -43,6 +43,7 @@ export default {
       },
       dropShadow: {
         custom: "50px 50px 100px white",
+        red: "50px 50px 100px #862019",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

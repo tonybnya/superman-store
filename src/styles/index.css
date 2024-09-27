@@ -7,7 +7,7 @@
 
 @layer base {
   html {
-    @apply bg-[#062A5A];
+    @apply bg-black;
   }
 
   body {
@@ -139,6 +139,10 @@
 
   .g10 {
     background: linear-gradient(#862019, transparent);
+  }
+
+  .g11 {
+    background: linear-gradient(#000000, #212E3E, transparent);
   }
 
   /* END of Gradients */

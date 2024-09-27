@@ -23,8 +23,14 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 right-0 z-50 w-full py-10">
       <div className="container flex h-10 justify-center items-center max-lg:px-5 lg:px-5">
-        <NavLink to="/" className="lg:hidden flex-1 cursor-pointer z-2">
-          <img src={logo} alt="Superman logo" width={60} height={25} />
+        <NavLink to="home" className="lg:hidden flex-1 cursor-pointer z-2">
+          <img
+            src={logo}
+            alt="Superman logo"
+            width={60}
+            height={25}
+            className="drop-shadow-red"
+          />
         </NavLink>
         <div
           className={clsx(
@@ -54,11 +60,11 @@ const Navbar = () => {
                   </LinkScroll>
                 </li>
                 <li className="nav-li flex gap-10">
-                  <RSLink title="home" />
+                  <RSLink title="home" to="home" />
                   <div className="dot" />
-                  <RSLink title="eshop" />
+                  <RSLink title="eshop" to="e-shop" />
                   <div className="dot" />
-                  <RSLink title="account" />
+                  <RSLink title="account" to="account" />
                 </li>
               </ul>
             </nav>
