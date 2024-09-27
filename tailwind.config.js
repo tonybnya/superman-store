@@ -44,6 +44,7 @@ export default {
       dropShadow: {
         custom: "50px 50px 100px white",
         red: "50px 50px 100px #862019",
+        other: "10px 10px 50px #862019",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

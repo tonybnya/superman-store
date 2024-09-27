@@ -18,12 +18,6 @@
     @apply no-underline;
   }
 
-  /*
-  img {
-    @apply block max-w-full;
-  }
-  */
-
   button {
     @apply bg-none tracking-[-0.03em];
   }

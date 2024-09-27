@@ -8,7 +8,7 @@ const MultimediaHome = () => {
   return (
     <section
       style={{ backgroundImage: `url(${bg})` }}
-      className="bg-cover bg-center bg-no-repeat drop-shadow-red"
+      className="bg-cover bg-center bg-no-repeat drop-shadow-other"
     >
       <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-90"></div>
       <div className="relative container bg-black/90 py-10">
