@@ -29,4 +29,5 @@ const MultimediaCard = () => {
     </div>
   );
 };
+
 export default MultimediaCard;

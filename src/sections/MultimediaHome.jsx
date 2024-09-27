@@ -26,4 +26,5 @@ const MultimediaHome = () => {
     </section>
   );
 };
+
 export default MultimediaHome;

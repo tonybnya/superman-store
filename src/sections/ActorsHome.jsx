@@ -37,4 +37,5 @@ const ActorsHome = () => {
     </section>
   );
 };
+
 export default ActorsHome;

@@ -38,4 +38,5 @@ const HeroHome = () => {
     </section>
   );
 };
+
 export default HeroHome;
