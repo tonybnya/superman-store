@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import clsx from "clsx";
-import logo from "../assets/logos/logo.png";
+import logo from "../assets/logos/logo_blanc.png";
 import superman from "../assets/icons/superman.png";
 import close from "../assets/icons/close.png";
 
@@ -25,7 +25,6 @@ const Navbar = () => {
       <div className="container flex h-10 justify-center items-center max-lg:px-5 lg:px-5">
         <NavLink to="/" className="lg:hidden flex-1 cursor-pointer z-2">
           <img src={logo} alt="Superman logo" width={60} height={25} />
-          {/* <img src={logo} alt="Superman white logo" className="max-lg:w-30 lg:w-40" /> */}
         </NavLink>
         <div
           className={clsx(
