@@ -1,5 +1,6 @@
 import bg from "../assets/images/img11.png";
 import { multimedia } from "../constants";
+import MultimediaCard from "../components/MultimediaCard.jsx";
 
 const MultimediaHome = () => {
   const multimediaItem = multimedia[0];
@@ -20,6 +21,7 @@ const MultimediaHome = () => {
         <div className="py-10">
           <h1 className="uppercase font-bold text-4xl">multimedia</h1>
         </div>
+        <MultimediaCard />
       </div>
     </section>
   );
