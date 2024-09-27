@@ -1,4 +1,4 @@
-import HeroHome from "../components/HeroHome.jsx";
+import HeroHome from "../sections/HeroHome.jsx";
 
 const Home = () => {
   return (
