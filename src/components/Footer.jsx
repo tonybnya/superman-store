@@ -16,8 +16,7 @@ const Footer = () => {
         <div className="flex gap-2 items-center justify-center max-lg:flex-col">
           <img src={wb} alt="Warner Bros. white logo" className="w-10" />
           <p className="max-sm:text-sm">
-            This project is inspired by the cinematic universe of the Superman
-            movies.
+            This project is inspired by the cinematic universe of Superman.
           </p>
         </div>
         <div className="py-4 flex items-center justify-center max-lg:flex-col max-lg:items-center gap-10">
