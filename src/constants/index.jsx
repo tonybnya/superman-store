@@ -26,17 +26,6 @@ export const actors = [
   },
 ];
 
-export const multimedia = [
-  {
-    id: "0",
-    title: "batman vs. superman",
-    text: [
-      "The world isn't big enough for two superheroes. As Superman battles Zod, the confrontation wreaks havoc and partially destroys the city of Metropolis. Bruce Wayne, present in the city at the time, watches helplessly as the city collapses, claiming many victims. Wayne becomes convinced that Superman will one day be the undoing of mankind, and that we must prepare to eliminate him. Now suspicious, he wonders whether the Iron Man, that alien from Krypton who can single-handedly destroy the world with a flick of his wrist, will one day decide to stop defending the Earth, or even cause its downfall.",
-      "For his part, Superman tries to defend himself, but turns the offensive against Batman. Batman is a shadow of his former self. He's become a ruthless vigilante, megalomaniac and cruel following the Joker's murder of his former partner Robin, he no longer hesitates to violate his moral code by eliminating and brandishing criminals. Superman simply wishes to remind him of the moral code of the “vigilante”, using force if necessary to stop Batman's abusive behavior.",
-    ],
-  },
-];
-
 export const movies = [
   {
     id: "0",
@@ -61,6 +50,17 @@ export const movies = [
     imdb: 6.4,
     text: "Fearing that Superman's actions are out of control, Batman confronts the Man of Steel, while the world debates what kind of hero it really needs.",
     image: "/movies/img14.png",
+  },
+];
+
+export const multimedia = [
+  {
+    id: "0",
+    title: "batman vs. superman",
+    text: [
+      "The world isn't big enough for two superheroes. As Superman battles Zod, the confrontation wreaks havoc and partially destroys the city of Metropolis. Bruce Wayne, present in the city at the time, watches helplessly as the city collapses, claiming many victims. Wayne becomes convinced that Superman will one day be the undoing of mankind, and that we must prepare to eliminate him. Now suspicious, he wonders whether the Iron Man, that alien from Krypton who can single-handedly destroy the world with a flick of his wrist, will one day decide to stop defending the Earth, or even cause its downfall.",
+      "For his part, Superman tries to defend himself, but turns the offensive against Batman. Batman is a shadow of his former self. He's become a ruthless vigilante, megalomaniac and cruel following the Joker's murder of his former partner Robin, he no longer hesitates to violate his moral code by eliminating and brandishing criminals. Superman simply wishes to remind him of the moral code of the “vigilante”, using force if necessary to stop Batman's abusive behavior.",
+    ],
   },
 ];
 
