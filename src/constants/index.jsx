@@ -67,17 +67,17 @@ export const multimedia = [
 export const quotes = [
   {
     id: "0",
-    quote: "What does the S stand for? It's not an S. On my planet it stands for hope.",
-    source: "Man Of Steel, Lois Lane et Clark Kent"
+    text: "What does the S stand for? It's not an S. On my planet it stands for hope.",
+    source: "Man Of Steel, Lois Lane et Clark Kent",
   },
   {
     id: "1",
-    quote: "There were heavenly times, the times before, filled with wonders: diamonds of the finest water. Harder is the fall, the fall to Earth, and that which falls is fallen. In my dream, they carried me towards the light. Sublime lie!",
-    source: "Batman v Superman: Dawn of Justice"
+    text: "There were heavenly times, the times before, filled with wonders: diamonds of the finest water. Harder is the fall, the fall to Earth, and that which falls is fallen. In my dream, they carried me towards the light. Sublime lie!",
+    source: "Batman v Superman: Dawn of Justice",
   },
   {
     id: "2",
-    quote: "Are you congratulating the greatest criminal of all time? Can't you just say “brilliant”? No, that would be too trite, I grant you. Charismatic, gifted genius. I'd say “twisted”.",
-    source: "Superman, Lex Luthor and Eve Teschmacher"
-  }
+    text: "Are you congratulating the greatest criminal of all time? Can't you just say “brilliant”? No, that would be too trite, I grant you. Charismatic, gifted genius. I'd say “twisted”.",
+    source: "Superman, Lex Luthor and Eve Teschmacher",
+  },
 ];

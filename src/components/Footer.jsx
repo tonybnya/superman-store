@@ -8,11 +8,13 @@ import wb from "../assets/icons/WB.png";
 import logo from "../assets/icons/logo.png";
 import x from "../assets/icons/x.png";
 import dc from "../assets/icons/DC.png";
+import QuoteSlider from "./QuoteSlider.jsx";
 
 const Footer = () => {
   return (
     <footer className="g11 py-10 text-center">
-      <div className="container">
+      <QuoteSlider />
+      <div className="container pt-10">
         <div className="flex gap-2 items-center justify-center max-lg:flex-col">
           <img src={wb} alt="Warner Bros. white logo" className="w-10" />
           <p className="max-sm:text-sm">
