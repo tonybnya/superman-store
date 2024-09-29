@@ -5,7 +5,7 @@ const MultimediaCard = () => {
 
   return (
     <div className="relative font-rajdhani flex w-full max-w-[36rem] flex-row max-sm:flex-col rounded-xl bg-[#062A5A] bg-clip-border text-white shadow-md">
-      <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700 max-sm:mx-auto max-sm:rounded-xl max-sm:mt-2">
+      <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700 max-sm:mx-auto max-sm:rounded-xl max-sm:mt-6">
         <img
           src={movie.image}
           alt="movie image"
