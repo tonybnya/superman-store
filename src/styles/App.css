@@ -21,7 +21,7 @@
 }
 
 .active {
-  color: #862019;
+  color: #862019 !important;
   text-decoration: underline;
 }
 
