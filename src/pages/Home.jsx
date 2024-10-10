@@ -1,7 +1,7 @@
 import HeroHome from "../sections/HeroHome.jsx";
 import ActorsHome from "../sections/ActorsHome.jsx";
 import MultimediaHome from "../sections/MultimediaHome.jsx";
-import Trailer from "../components/Trailer.jsx";
+import TrailerHome from "../sections/TrailerHome.jsx";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
       <HeroHome />
       <ActorsHome />
       <MultimediaHome />
-      <Trailer />
+      <TrailerHome />
     </main>
   );
 };

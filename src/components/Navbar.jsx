@@ -62,7 +62,7 @@ const Navbar = () => {
                 <li className="nav-li flex gap-10">
                   <RSLink title="home" to="home" />
                   <div className="dot" />
-                  <RSLink title="eshop" to="e-shop" />
+                  <RSLink title="e-shop" to="e-shop" />
                   <div className="dot" />
                   <RSLink title="account" to="account" />
                 </li>

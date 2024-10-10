@@ -1,6 +1,6 @@
 import trailer from "../assets/images/trailer.png";
 
-const Trailer = () => {
+const TrailerHome = () => {
   return (
     <div className="container py-10">
       <a href="https://www.youtube.com/watch?v=yP7J0rlFkrg" target="_blank">
@@ -10,4 +10,4 @@ const Trailer = () => {
   )
 }
 
-export default Trailer;
+export default TrailerHome;
