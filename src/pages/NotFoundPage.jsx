@@ -20,12 +20,12 @@ const NotFoundPage = () => {
             <a
                 className="relative inline-block text-sm font-medium text-white group focus:outline-none focus:ring"
             >
-              <div className="flex gap-2">
+              <div className="flex gap-2 max-lg:flex-col">
                 <NavLink to="/">
-                  <Button>Go Home</Button>
+                  <Button>Go to HomePage</Button>
                 </NavLink>
                 <NavLink to="eshop">
-                  <Button>Eshop</Button>
+                  <Button>View Products</Button>
                 </NavLink>
               </div>
             </a>
