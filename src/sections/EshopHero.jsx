@@ -1,5 +1,4 @@
-import React from "react";
-import bg from "../assets/images/img20.png";
+import bg from "../assets/images/bg-eshop-hero.png";
 import logo from "../assets/logos/logo.png";
 
 const HeroEshop = () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import EshopHero from "../sections/EshopHero";
 import EshopCart from "../sections/EshopCart";
 import EshopFilter from "../sections/EshopFilter";

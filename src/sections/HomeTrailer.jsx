@@ -1,4 +1,4 @@
-import trailer from "../assets/images/trailer.png";
+import trailer from "../assets/images/home-trailer-image.png";
 
 const TrailerHome = () => {
   return (

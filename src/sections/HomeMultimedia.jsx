@@ -1,4 +1,4 @@
-import bg from "../assets/images/img11.png";
+import bg from "../assets/images/bg-home-multimedia.png";
 import { multimedia, movies } from "../constants/index.jsx";
 import MultimediaSlider from "../components/MultimediaSlider.jsx";
 
