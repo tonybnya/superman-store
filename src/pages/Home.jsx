@@ -1,15 +1,15 @@
-import HeroHome from "../sections/HeroHome.jsx";
-import ActorsHome from "../sections/ActorsHome.jsx";
-import MultimediaHome from "../sections/MultimediaHome.jsx";
-import TrailerHome from "../sections/TrailerHome.jsx";
+import HomeHero from "../sections/HomeHero.jsx";
+import HomeActors from "../sections/HomeActors.jsx";
+import HomeMultimedia from "../sections/HomeMultimedia.jsx";
+import HomeTrailer from "../sections/HomeTrailer.jsx";
 
 const Home = () => {
   return (
     <main className="overflow-hidden">
-      <HeroHome />
-      <ActorsHome />
-      <MultimediaHome />
-      <TrailerHome />
+      <HomeHero />
+      <HomeActors />
+      <HomeMultimedia />
+      <HomeTrailer />
     </main>
   );
 };

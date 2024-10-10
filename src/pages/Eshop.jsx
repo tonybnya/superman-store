@@ -1,9 +1,12 @@
 import React from "react";
+import EshopHero from "../sections/EshopHero";
 
 const Eshop = () => {
-    return (
-        <div>Eshop</div>
-    )
+  return (
+    <main className="overflow-hidden">
+      <EshopHero />
+    </main>
+  )
 }
 
 export default Eshop;

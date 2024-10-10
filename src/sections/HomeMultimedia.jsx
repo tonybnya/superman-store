@@ -1,5 +1,5 @@
 import bg from "../assets/images/img11.png";
-import { multimedia, movies } from "../constants";
+import { multimedia, movies } from "../constants/index.jsx";
 import MultimediaSlider from "../components/MultimediaSlider.jsx";
 
 const MultimediaHome = () => {
