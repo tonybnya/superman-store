@@ -22,6 +22,7 @@
 
 .active {
   color: #862019;
+  text-decoration: underline;
 }
 
 @keyframes logo-spin {
