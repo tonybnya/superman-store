@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import Button from "../components/Button";
 import bg from "../assets/images/bg-404.jpg";
 
 const NotFoundPage = () => {
@@ -19,13 +20,14 @@ const NotFoundPage = () => {
             <a
                 className="relative inline-block text-sm font-medium text-white group focus:outline-none focus:ring"
             >
-              <span
-                  className="absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 bg-[#862019] group-hover:translate-y-0 group-hover:translate-x-0"
-              ></span>
-
-              <span className="relative block px-8 py-3 font-bold max-lg:text-sm lg:text-lg bg-[#062A5A] border border-current">
-                <NavLink to="/">Go Home</NavLink>
-              </span>
+              <div className="flex gap-2">
+                <NavLink to="/">
+                  <Button>Go Home</Button>
+                </NavLink>
+                <NavLink to="eshop">
+                  <Button>Eshop</Button>
+                </NavLink>
+              </div>
             </a>
           </button>
         </div>
