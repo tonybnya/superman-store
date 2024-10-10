@@ -11,13 +11,13 @@ const Navbar = () => {
 
   // eslint-disable-next-line react/prop-types
   const RSLink = ({ title }) => (
-    <LinkScroll
+    <NavLink
       className="base-bold text-p4 uppercase transition-colors duration-1000 cursor-pointer hover:text-[#862019] max-lg:my-4 max-lg:h5"
       onClick={() => setIsOpen(false)}
       to={title}
     >
       {title}
-    </LinkScroll>
+    </NavLink>
   );
 
   return (
@@ -62,7 +62,7 @@ const Navbar = () => {
                 <li className="nav-li flex gap-10">
                   <RSLink title="home" to="home" />
                   <div className="dot" />
-                  <RSLink title="e-shop" to="e-shop" />
+                  <RSLink title="eshop" to="eshop" />
                   <div className="dot" />
                   <RSLink title="account" to="account" />
                 </li>
