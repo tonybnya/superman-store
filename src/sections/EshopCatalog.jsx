@@ -15,9 +15,9 @@ const EshopCatalog = () => {
   }, []);
 
   return (
-    <div className="container">
-      <h1>Catalog</h1>
-      <div className="grid lg:grid-cols-3 gap-1 max-lg:grid-cols-1 md:grid-cols-2">
+    <div>
+      <h1 className="font-bold text-4xl">Catalog of Products</h1>
+      <div className="grid lg:grid-cols-3 max-lg:grid-cols-1 md:grid-cols-2">
         {products.map((product) => (
           <EshopProductCard
             key={product.id}
