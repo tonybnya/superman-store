@@ -24,7 +24,7 @@ const EshopCatalog = () => {
             name={product.name}
             price={product.price}
             description={product.description}
-            imageUrl={product.imageUrl}
+            image_url={product.image_url}
           />
         ))}
       </div>

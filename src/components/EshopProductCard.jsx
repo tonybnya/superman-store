@@ -1,11 +1,11 @@
-const EshopProductCard = ({ name, price, description, imageUrl }) => {
+const EshopProductCard = ({ name, price, description, image_url }) => {
   return (
     <div className="flex justify-center items-center">
       <div className="relative flex flex-col text-gray-700 shadow-md bg-clip-border rounded-xl w-64">
-        <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-44">
+        <div className="relative mx-4 mt-4 overflow-hidden flex items-center justify-center text-gray-700 text-center bg-white bg-clip-border rounded-xl h-44">
           <img
-            src={imageUrl}
-            alt="card-image"
+            src={image_url}
+            alt={"image of" + " " + name}
             className="w-1/2 h-1/2"
           />
         </div>
