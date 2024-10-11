@@ -1,6 +1,6 @@
 import EshopHero from "../sections/EshopHero";
-import EshopCart from "../sections/EshopCart";
-import EshopFilter from "../sections/EshopFilter";
+import EshopCart from "../components/EshopCart";
+import EshopFilter from "../components/EshopFilter";
 import EshopCatalog from "../sections/EshopCatalog";
 
 const Eshop = () => {
