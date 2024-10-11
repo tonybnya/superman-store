@@ -8,7 +8,7 @@ const Eshop = () => {
     <main className="overflow-hidden">
       <EshopHero />
       <EshopCart />
-      <div className="flex">
+      <div className="flex max-lg:flex-col max-lg:text-center">
         <EshopFilter />
         <EshopCatalog />
       </div>

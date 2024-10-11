@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import api from "../api";
+import EshopProductCard from "../components/EshopProductCard";
 
 const EshopCatalog = () => {
   const [products, setProducts] = useState([]);
@@ -15,8 +16,18 @@ const EshopCatalog = () => {
 
   return (
     <div className="container">
-      <h1>EshopCatalog</h1>
-      {console.log(products)}
+      <h1>Catalog</h1>
+      <div className="grid lg:grid-cols-3 gap-1 max-lg:grid-cols-1 md:grid-cols-2">
+        {products.map((product) => (
+          <EshopProductCard
+            key={product.id}
+            name={product.name}
+            price={product.price}
+            description={product.description}
+            imageUrl={product.imageUrl}
+          />
+        ))}
+      </div>
     </div>
   )
 }
