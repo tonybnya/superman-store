@@ -16,7 +16,7 @@ const EshopCatalog = () => {
 
   return (
     <div>
-      <h1 className="font-bold text-4xl">Catalog of Products</h1>
+      <h1 className="font-bold text-4xl pb-4">Catalog of Products</h1>
       <div className="grid lg:grid-cols-3 max-lg:grid-cols-1 md:grid-cols-2">
         {products.map((product) => (
           <EshopProductCard
