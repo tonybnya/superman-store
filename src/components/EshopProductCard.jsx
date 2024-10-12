@@ -1,10 +1,11 @@
 import Button from "./Button";
+import InfoButton from "./InfoButton";
 
 const EshopProductCard = ({ name, price, description, image_url }) => {
   return (
     <div className="flex justify-center items-center">
       <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl w-72">
-        <div className="relative mx-4 mt-4 overflow-hidden flex items-center justify-center text-gray-700 text-center bg-transparent border border-4 border-white rounded-xl h-44">
+        <div className="relative mx-4 mt-4 overflow-hidden flex items-center justify-center text-gray-700 text-center bg-transparent border-2 border-[#062A5A] rounded-xl h-44">
           <img
             src={image_url}
             alt={"image of" + " " + name}
@@ -24,8 +25,9 @@ const EshopProductCard = ({ name, price, description, image_url }) => {
               {description.length > 100 ? description.substring(0, 120) + '...' : description}
             </p>
         </div>
-        <div className="p-6 pt-0 w-full flex justify-center">
+        <div className="p-6 pt-0 w-full flex justify-between items-center">
           <Button>Add to Cart</Button>
+          <InfoButton />
         </div>
       </div>
     </div>
