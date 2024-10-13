@@ -1,5 +1,5 @@
-import { Element } from "react-scroll";
-import { actors } from "../constants";
+import { Element } from 'react-scroll';
+import { actors } from '../constants';
 
 const ActorsHome = () => {
   return (

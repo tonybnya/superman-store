@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import bg from "../assets/images/bg-login-signup.png";
+import { Link } from 'react-router-dom';
+import bg from '../assets/images/bg-login-signup.png';
 
 const SignUp = () => {
   return (

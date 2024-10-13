@@ -1,6 +1,6 @@
-import { NavLink } from "react-router-dom";
-import Button from "../components/Button";
-import bg from "../assets/images/bg-404.jpg";
+import { NavLink } from 'react-router-dom';
+import Button from '../components/Button';
+import bg from '../assets/images/bg-404.jpg';
 
 const NotFoundPage = () => {
   return (

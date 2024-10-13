@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { quotes } from "../constants";
+import { useState, useEffect } from 'react';
+import { quotes } from '../constants';
 
 const QuoteSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);

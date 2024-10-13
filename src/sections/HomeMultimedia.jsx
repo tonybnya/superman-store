@@ -1,6 +1,6 @@
-import bg from "../assets/images/bg-home-multimedia.png";
-import { multimedia, movies } from "../constants/index.jsx";
-import MultimediaSlider from "../components/MultimediaSlider.jsx";
+import bg from '../assets/images/bg-home-multimedia.png';
+import { multimedia, movies } from '../constants/index.jsx';
+import MultimediaSlider from '../components/MultimediaSlider.jsx';
 
 const MultimediaHome = () => {
   const multimediaItem = multimedia[0];

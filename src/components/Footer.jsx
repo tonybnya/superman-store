@@ -1,14 +1,16 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import {
   faGithub,
   faLinkedin,
   faXTwitter,
-} from "@fortawesome/free-brands-svg-icons";
-import wb from "../assets/icons/WB.png";
-import logo from "../assets/icons/logo.png";
-import x from "../assets/icons/x.png";
-import dc from "../assets/icons/DC.png";
-import QuoteSlider from "./QuoteSlider.jsx";
+} from '@fortawesome/free-brands-svg-icons';
+
+import wb from '../assets/icons/WB.png';
+import logo from '../assets/icons/logo.png';
+import x from '../assets/icons/x.png';
+import dc from '../assets/icons/DC.png';
+import QuoteSlider from './QuoteSlider.jsx';
 
 const Footer = () => {
   return (

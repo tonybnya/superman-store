@@ -1,5 +1,5 @@
-import bg from "../assets/images/bg-eshop-hero.png";
-import logo from "../assets/logos/logo.png";
+import bg from '../assets/images/bg-eshop-hero.png';
+import logo from '../assets/logos/logo.png';
 
 const HeroEshop = () => {
   return (

@@ -1,7 +1,7 @@
-import EshopHero from "../sections/EshopHero";
-import EshopCart from "../components/EshopCart";
-import EshopFilter from "../components/EshopFilter";
-import EshopCatalog from "../sections/EshopCatalog";
+import EshopHero from '../sections/EshopHero';
+import EshopCart from '../components/EshopCart';
+import EshopFilter from '../components/EshopFilter';
+import EshopCatalog from '../sections/EshopCatalog';
 
 const Eshop = () => {
   return (

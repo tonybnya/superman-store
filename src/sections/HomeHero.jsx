@@ -1,7 +1,7 @@
-import { NavLink } from "react-router-dom";
-import Button from "../components/Button";
-import superman from "../assets/icons/superman.png";
-import hero from "../assets/images/logo_hd.png";
+import { NavLink } from 'react-router-dom';
+import Button from '../components/Button';
+import superman from '../assets/icons/superman.png';
+import hero from '../assets/images/logo_hd.png';
 
 const HeroHome = () => {
   return (

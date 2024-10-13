@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
-import leftArrow from "../assets/icons/left.png";
-import rightArrow from "../assets/icons/right.png";
-import MultimediaCard from "./MultimediaCard";
+import { useState, useEffect } from 'react';
+import leftArrow from '../assets/icons/left.png';
+import rightArrow from '../assets/icons/right.png';
+import MultimediaCard from './MultimediaCard';
 
 const MultimediaSlider = ({movies}) => {
   const [currentIndex, setCurrentIndex] = useState(0);

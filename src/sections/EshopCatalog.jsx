@@ -1,12 +1,12 @@
-import { useEffect, useState } from "react";
-import api from "../api";
-import EshopProductCard from "../components/EshopProductCard";
+import { useEffect, useState } from 'react';
+import api from '../api';
+import EshopProductCard from '../components/EshopProductCard';
 
 const EshopCatalog = () => {
   const [products, setProducts] = useState([]);
 
   const fetchProducts = async () => {
-    const response = await api.get("/products");
+    const response = await api.get('/products');
     setProducts(response.data);
   }
 
