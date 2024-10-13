@@ -139,6 +139,10 @@
     background: linear-gradient(#000000, #212E3E, transparent);
   }
 
+  .g12 {
+    background: linear-gradient(#19587d, #b11313, transparent);
+  }
+
   /* END of Gradients */
   /* START of Common */
   .container {
