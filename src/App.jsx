@@ -4,6 +4,8 @@ import Layout from './pages/Layout';
 import Home from "./pages/Home";
 import Eshop from "./pages/Eshop";
 import Account from "./pages/Account";
+import SignIn from './pages/SignIn';
+import SignUp from './pages/SignUp';
 import NotFoundPage from "./pages/NotFoundPage";
 
 const App = () => {
@@ -17,6 +19,8 @@ const App = () => {
             <Route path="home" element={<Home />} />
             <Route path="eshop" element={<Eshop />} />
             <Route path="account" element={<Account />} />
+            <Route path="login" element={<SignIn />} />
+            <Route path="signup" element={<SignUp />} />
           </Route>
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
