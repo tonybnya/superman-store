@@ -3,7 +3,7 @@ import InfoButton from "./InfoButton";
 
 const EshopProductCard = ({ name, price, description, image_url }) => {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center hover:scale-105">
       <div className="relative flex flex-col text-gray-700 shadow-md rounded-xl w-72">
         <div className="relative mx-4 mt-4 overflow-hidden flex items-center justify-center text-gray-700 text-center bg-transparent border-2 border-[#062A5A] rounded-xl h-44">
           <img
