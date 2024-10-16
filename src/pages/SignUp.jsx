@@ -9,7 +9,7 @@ const SignUp = () => {
         style={{backgroundImage: `url(${bg})`}}
       ></div>
       <div className="relative z-10 container flex-1 flex flex-col items-center max-w-lg px-4 py-28">
-        <div
+        <form
           className="flex flex-col p-6 rounded-2xl shadow-2xl shadow-[#862019]"
         >
           <h1 className="text-center text-5xl mb-2 text-neutral-200">Sign Up</h1>
@@ -71,7 +71,7 @@ const SignUp = () => {
               Privacy Policy
             </a>
           </div>
-        </div>
+        </form>
       </div>
     </main>
   )
