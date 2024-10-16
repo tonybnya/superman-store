@@ -1,7 +1,20 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import bg from '../assets/images/bg-login-signup.png';
 
 const Login = () => {
+  const log = (arg) => console.log(arg);
+
+  const [email, setEmail] = useState('johndoe@gmail.com');
+  const [password, setPassword] = useState('password');
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+
+    log(email);
+    log(password);
+  }
+
   return (
     <main className="relative overflow-hidden min-h-screen bg-cover bg-center flex flex-col justify-center items-center mx-0 pt-10 font-rajdhani">
       <div
@@ -10,6 +23,7 @@ const Login = () => {
       ></div>
       <div className="relative z-10 container flex-1 flex flex-col items-center max-w-xl px-4 py-28">
         <form
+          onSubmit={onSubmit}
           className="flex flex-col p-6 rounded-2xl shadow-2xl shadow-[#862019] w-96 max-sm:w-80"
         >
           <h1 className="text-center text-5xl mb-2 text-neutral-200">Login</h1>
@@ -20,6 +34,8 @@ const Login = () => {
           <input
             id="email"
             type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             className="w-auto my-2 mx-8 p-2 rounded-md placeholder-gray-200 border-white border-2 bg-transparent focus:outline-none focus:ring-transparent focus:border-gray-200 focus:placeholder-transparent focus:text-gray-200"
             placeholder="Email"
           />
@@ -27,6 +43,8 @@ const Login = () => {
           <input
             id="password"
             type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
             className="w-auto my-2 mx-8 p-2 rounded-md placeholder-gray-200 border-white border-2 bg-transparent focus:outline-none focus:ring-transparent focus:border-gray-200 focus:placeholder-transparent focus:text-gray-200"
             placeholder="Password"
           />

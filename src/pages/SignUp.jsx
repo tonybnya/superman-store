@@ -1,7 +1,23 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import bg from '../assets/images/bg-login-signup.png';
 
 const SignUp = () => {
+  const log = (arg) => console.log(arg);
+
+  const [name, setName] = useState('John Doe');
+  const [email, setEmail] = useState('johndoe@gmail.com');
+  const [password, setPassword] = useState('password');
+  const [confirmPassword, setConfirmPassword] = useState('password');
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+
+    log(name);
+    log(email);
+    log(password);
+  }
+
   return (
     <main className="relative overflow-hidden min-h-screen bg-cover bg-center flex flex-col justify-center items-center mx-0 pt-10 font-rajdhani">
       <div
@@ -10,6 +26,7 @@ const SignUp = () => {
       ></div>
       <div className="relative z-10 container flex-1 flex flex-col items-center max-w-lg px-4 py-28">
         <form
+          onSubmit={onSubmit}
           className="flex flex-col p-6 rounded-2xl shadow-2xl shadow-[#862019]"
         >
           <h1 className="text-center text-5xl mb-2 text-neutral-200">Sign Up</h1>
@@ -20,6 +37,8 @@ const SignUp = () => {
           <input
             id="name"
             type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
             className="w-auto mb-2 mt-6 mx-8 p-2 rounded-md placeholder-gray-200 border-white border-2 bg-transparent focus:outline-none focus:ring-transparent focus:border-gray-200 focus:placeholder-transparent focus:text-gray-200"
             placeholder="Name"
           />
@@ -27,6 +46,8 @@ const SignUp = () => {
           <input
             id="email"
             type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             className="w-auto my-2 mx-8 p-2 rounded-md placeholder-gray-200 border-white border-2 bg-transparent focus:outline-none focus:ring-transparent focus:border-gray-200 focus:placeholder-transparent focus:text-gray-200"
             placeholder="Email"
           />
@@ -34,6 +55,8 @@ const SignUp = () => {
           <input
             id="password"
             type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
             className="w-auto my-2 mx-8 p-2 rounded-md placeholder-gray-200 border-white border-2 bg-transparent focus:outline-none focus:ring-transparent focus:border-gray-200 focus:placeholder-transparent focus:text-gray-200"
             placeholder="Password"
           />
@@ -41,6 +64,8 @@ const SignUp = () => {
           <input
             id="password confirm"
             type="password"
+            value={confirmPassword}
+            onChange={(e) => setConfirmPassword(e.target.value)}
             className="w-auto my-2 mx-8 p-2 rounded-md placeholder-gray-200 border-white border-2 bg-transparent focus:outline-none focus:ring-transparent focus:border-gray-200 focus:placeholder-transparent focus:text-gray-200"
             placeholder="Confirm Password"
           />
