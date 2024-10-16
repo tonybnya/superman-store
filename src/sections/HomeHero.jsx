@@ -20,7 +20,7 @@ const HeroHome = () => {
             powers beyond imagination, he fights for a brighter future where
             good always triumphs.
           </p>
-          <NavLink to="eshop">
+          <NavLink to="/eshop">
             <Button icon={superman}>Try it now</Button>
           </NavLink>
         </div>
