@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import leftArrow from '../assets/icons/left.png';
 import rightArrow from '../assets/icons/right.png';
 import MultimediaCard from './MultimediaCard';
 
-const MultimediaSlider = ({movies}) => {
+const MultimediaSlider = ({ movies }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
@@ -54,5 +55,19 @@ const MultimediaSlider = ({movies}) => {
     </div>
   )
 }
+
+// Define prop types
+MultimediaSlider.propTypes = {
+  movies: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+      image: PropTypes.string.isRequired,
+      genre: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,
+      imdb: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+      text: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+};
 
 export default MultimediaSlider;

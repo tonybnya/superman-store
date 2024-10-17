@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Button from './Button';
 import InfoButton from './InfoButton';
 
@@ -32,6 +33,14 @@ const EshopProductCard = ({ name, price, description, image_url }) => {
       </div>
     </div>
   )
+}
+
+// Define prop types
+EshopProductCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  description: PropTypes.string,
+  image_url: PropTypes.string
 }
 
 export default EshopProductCard;

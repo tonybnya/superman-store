@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import PropTypes from 'prop-types';
 
 const Button = ({ icon, children, href, containerClassName, onClick }) => {
   const Inner = () => (
@@ -39,6 +40,15 @@ const Button = ({ icon, children, href, containerClassName, onClick }) => {
       <Inner />
     </button>
   );
+};
+
+// Define prop types
+Button.propTypes = {
+  icon: PropTypes.string,
+  children: PropTypes.node,
+  href: PropTypes.string,
+  containerClassName: PropTypes.string,
+  onClick: PropTypes.func,
 };
 
 export default Button;

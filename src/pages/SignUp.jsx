@@ -5,10 +5,10 @@ import bg from '../assets/images/bg-login-signup.png';
 const SignUp = () => {
   const log = (arg) => console.log(arg);
 
-  const [name, setName] = useState('John Doe');
-  const [email, setEmail] = useState('johndoe@gmail.com');
-  const [password, setPassword] = useState('password');
-  const [confirmPassword, setConfirmPassword] = useState('password');
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
 
   const onSubmit = (e) => {
     e.preventDefault();

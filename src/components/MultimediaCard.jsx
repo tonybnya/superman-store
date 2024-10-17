@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const MultimediaCard = ({ movie }) => {
   return (
     <div className="relative font-rajdhani flex w-full max-w-[36rem] flex-row max-sm:flex-col rounded-xl bg-[#062A5A] bg-clip-border text-white shadow-md">
@@ -24,6 +26,18 @@ const MultimediaCard = ({ movie }) => {
       </div>
     </div>
   );
+};
+
+// Define prop types
+MultimediaCard.propTypes = {
+  movie: PropTypes.shape({
+    id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+    image: PropTypes.string.isRequired,
+    genre: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    imdb: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+    text: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default MultimediaCard;
